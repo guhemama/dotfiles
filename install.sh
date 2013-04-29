@@ -7,3 +7,5 @@ do
    mv "$file" "$HOME/.$file"
   fi
 done
+
+bash

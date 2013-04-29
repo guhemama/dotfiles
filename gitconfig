@@ -1,0 +1,16 @@
+[user]
+	name = Gustavo Henrique Mascarenhas Machado
+	email = guhemama@gmail.com
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+	ui = true
+[color "status"]
+	added = green bold
+	changed  = cyan bold
+	untracked = yellow bold
+[color "branch"]
+	current = cyan bold
+	local = yellow
+	remote = green
