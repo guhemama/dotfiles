@@ -14,3 +14,5 @@
 	current = cyan bold
 	local = yellow
 	remote = green
+[push]
+	default = simple
