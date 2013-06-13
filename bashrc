@@ -6,3 +6,4 @@ fi
 # User specific environment and startup programs
 alias rake='bundle exec rake'
 alias ll="ls -la"
+alias rs="rails server"
