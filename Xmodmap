@@ -14,6 +14,7 @@ keycode 0x21 =	p	P	p	P	otilde	Otilde	otilde
 keycode 0x26 =  a	A	a	A	aacute	Aacute	aacute
 keycode 0x27 =	s	S	s	S	atilde	Atilde	atilde
 keycode 0x28 =	d	D	d	D	agrave	Agrave	agrave
+keycode 0x29 =  f	F	f	F	acircumflex	Acircumflex	acircumflex
 keycode 0x36 =	c	C	c	C	ccedilla	Ccedilla	ccedilla
 
 add    Control = Control_R Control_L
