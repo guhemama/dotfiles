@@ -11,6 +11,7 @@ keycode 0x1E =	u	U	u	U	uacute	Uacute	uacute
 keycode 0x1F =	i	I	i	I	iacute	Iacute	iacute
 keycode 0x20 =	o	O	o	O	oacute	Oacute	oacute
 keycode 0x21 =	p	P	p	P	otilde	Otilde	otilde
+keycode 0x22 =  bracketleft braceleft bracketleft braceleft ocircumflex Ocircumflex ocircumflex Ocircumflex
 keycode 0x26 =  a	A	a	A	aacute	Aacute	aacute
 keycode 0x27 =	s	S	s	S	atilde	Atilde	atilde
 keycode 0x28 =	d	D	d	D	agrave	Agrave	agrave
