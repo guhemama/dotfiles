@@ -16,3 +16,5 @@
 	remote = green
 [push]
 	default = simple
+[core]
+  editor = vim
