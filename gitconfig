@@ -16,9 +16,3 @@
 	remote = green
 [push]
 	default = simple
-[alias]
-  cc = checkout
-  c = commit
-  s = status
-  br = branch
-  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short

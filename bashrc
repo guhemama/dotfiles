@@ -18,7 +18,10 @@ export PS1="\[\e[01m\]\[\e[01;32m\]\u@\h\[\e[m\]\[\e[01;34m\] \W \$ \[\e[m\]"
 
 # User specific environment and startup programs
 alias rake='bundle exec rake'
-alias ll="ls -la"
+alias ll='ls -la'
+alias gits='git status'
+alias gita='git add .'
+alias gitc='git commit'
 
 # Start tmux on load
 if [[ ! $TERM =~ screen ]]; then
