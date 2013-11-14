@@ -3,6 +3,11 @@ if [ -f /etc/bashrc ]; then
   . /etc/bashrc
 fi
 
+# Set $TERM to 256 color
+if [ "$TERM" == "xterm" ]; then
+    export TERM=xterm-256color
+fi
+
 # Custom PS1
 export PS1="\[\e[01m\]\[\e[01;32m\]\u@\h\[\e[m\]\[\e[01;34m\] \W \$ \[\e[m\]"
 
