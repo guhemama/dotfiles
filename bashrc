@@ -21,7 +21,7 @@ alias rake='bundle exec rake'
 alias ll='ls -la'
 alias gits='git status'
 alias gita='git add .'
-alias gitc='git commit'
+alias gitc='git commit -a'
 alias gitp='git push'
 
 # Start tmux on load
