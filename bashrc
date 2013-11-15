@@ -26,5 +26,5 @@ alias gitp='git push'
 
 # Start tmux on load
 if [[ ! $TERM =~ screen ]]; then
-    exec tmux
+    tmux a -t terminal || tmux new -s terminal
 fi
