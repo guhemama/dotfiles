@@ -23,7 +23,7 @@ alias gits='git status'
 alias gita='git add .'
 alias gitc='git commit -a'
 alias gitp='git push'
-alias rm='rm -i'
+alias rm='rm -I'
 
 # Start tmux on load
 if [[ ! $TERM =~ screen ]]; then
