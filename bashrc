@@ -48,3 +48,6 @@ if [[ ! $TERM =~ screen ]]; then
     exec tmux new -s terminal
   fi
 fi
+
+# Include RVM script
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
