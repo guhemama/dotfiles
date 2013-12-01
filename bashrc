@@ -5,16 +5,28 @@ fi
 
 # Load keyboard changes only if x has been started
 if [ -n "$DISPLAY" ]; then
-    xmodmap $HOME/.Xmodmap
+  xmodmap $HOME/.Xmodmap
 fi
 
 # Set $TERM to 256 color
 if [ "$TERM" == "xterm" ]; then
-    export TERM=xterm-256color
+  export TERM=xterm-256color
 fi
 
 # Custom PS1
 export PS1="\[\e[01m\]\[\e[01;32m\]\u@\h\[\e[m\]\[\e[01;34m\] \W \$ \[\e[m\]"
+
+# Ubuntu bashrc: enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+  test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+  alias ls='ls --color=auto'
+  #alias dir='dir --color=auto'
+  #alias vdir='vdir --color=auto'
+
+  alias grep='grep --color=auto'
+  alias fgrep='fgrep --color=auto'
+  alias egrep='egrep --color=auto'
+fi
 
 # User specific environment and startup programs
 alias rake='bundle exec rake'
