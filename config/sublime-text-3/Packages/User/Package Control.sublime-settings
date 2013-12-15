@@ -1,0 +1,16 @@
+{
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"CoffeeScript",
+		"Package Control",
+		"DocBlockr",
+		"SCSS",
+		"Solarized Color Scheme",
+		"SublimeHaskell",
+		"SublimeLinter",
+		"SublimeREPL",
+		"Theme - Flatland",
+		"TrailingSpaces"
+	]
+}
