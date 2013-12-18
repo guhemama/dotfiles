@@ -31,6 +31,7 @@ fi
 # User specific environment and startup programs
 alias rake='bundle exec rake'
 alias ll='ls -la'
+alias mkdir='mkdir -p'
 alias gits='git status'
 alias gita='git add .'
 alias gitc='git commit -a'
