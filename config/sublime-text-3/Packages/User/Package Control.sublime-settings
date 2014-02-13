@@ -3,14 +3,14 @@
 	[
 		"All Autocomplete",
 		"CoffeeScript",
-		"Package Control",
 		"DocBlockr",
+		"Package Control",
+		"Racket",
 		"SCSS",
-		"Solarized Color Scheme",
 		"SublimeHaskell",
 		"SublimeLinter",
 		"SublimeREPL",
-		"Theme - Flatland",
+		"Theme - Spacegray",
 		"TrailingSpaces"
 	]
 }
