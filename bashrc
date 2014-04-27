@@ -32,6 +32,9 @@ HISTCONTROL=ignoreboth
 # Append to the history file, don't overwrite it
 shopt -s histappend
 
+# Navigate without cd
+shopt -s autocd
+
 # Avoid accidental overwriting
 set -o noclobber
 
