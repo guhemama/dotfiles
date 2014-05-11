@@ -2,14 +2,9 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
-		"CoffeeScript",
 		"DocBlockr",
 		"Package Control",
-		"Racket",
-		"SCSS",
-		"SublimeHaskell",
 		"SublimeLinter",
-		"SublimeREPL",
 		"Theme - Spacegray",
 		"TrailingSpaces"
 	]
