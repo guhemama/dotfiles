@@ -7,9 +7,9 @@ for file in ./scripts/*; do
 done
 
 # move dotfiles
-for file in ./files/*; do
+for file in `ls files`; do
   echo "Moving $file..."
-  cp -i "$file" "$HOME/.$file"
+  mv -i "files/$file" "$HOME/.$file"
 done
 
 source ~/.bashrc
