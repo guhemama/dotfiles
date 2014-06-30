@@ -8,7 +8,7 @@ done
 
 # move dotfiles
 echo "Syncing dotfiles..."
-rsync -avz ./files/ $HOME
+rsync -avz files/ $HOME
 
 source ~/.bashrc
 
