@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Sets up profile setting
 
+# Sets up profile settings
 PROFILE_KEY=/apps/gnome-terminal/profiles/Default
 
-# Util
+# Wrapper for gconftool --set
 gset() {
     local type="$1"; shift
     local key="$1"; shift
@@ -12,6 +12,7 @@ gset() {
      gconftool-2 --set --type "$type" "$PROFILE_KEY/$key" -- "$val"
 }
 
+# Wrapper for dconf write
 dset() {
     local key="$1"; shift
     local val="$1"; shift

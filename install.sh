@@ -7,10 +7,8 @@ for file in ./scripts/*; do
 done
 
 # move dotfiles
-for file in `ls files`; do
-  echo "Moving $file..."
-  mv -i "files/$file" "$HOME/.$file"
-done
+echo "Syncing dotfiles..."
+rsync -avz ./files/ $HOME
 
 source ~/.bashrc
 
