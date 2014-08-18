@@ -52,6 +52,7 @@ alias gitc='git commit -a'
 alias gitp='git push'
 alias gitpl='git pull'
 alias rm='rm -I'
+alias unixtime='date +%s'
 
 # Start tmux on load
 if [[ ! $TERM =~ screen ]]; then
