@@ -3,11 +3,6 @@ if [ -f /etc/bashrc ]; then
   . /etc/bashrc
 fi
 
-# Load keyboard changes only if x has been started
-if [ -n "$DISPLAY" ]; then
-  xmodmap $HOME/.Xmodmap
-fi
-
 # Set $TERM to 256 color
 if [ "$TERM" == "xterm" ]; then
   export TERM=xterm-256color
