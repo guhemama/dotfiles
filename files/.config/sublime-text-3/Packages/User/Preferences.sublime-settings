@@ -1,5 +1,6 @@
 {
 	"bold_folder_labels": true,
+	"caret_extra_width": 2,
 	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
 	"create_window_at_startup": false,
 	"font_face": "Ubuntu Mono",
