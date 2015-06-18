@@ -9,7 +9,7 @@ if [ "$TERM" == "xterm" ]; then
 fi
 
 # Custom PS1
-export PS1="\[\e[01m\]\[\e[01;32m\]\u@\h\[\e[m\]\[\e[01;34m\] \W \$ \[\e[m\]"
+export PS1="\[\e[01m\]\[\e[01;30m\]\u@\h\[\e[m\]\[\e[01;34m\] \W \$ \[\e[m\]"
 
 # Ubuntu bashrc: enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
