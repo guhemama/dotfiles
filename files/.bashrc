@@ -50,7 +50,7 @@ alias rm='rm -I'
 alias unixtime='date +%s'
 
 # PHP aliases
-alias phps='php -S localhost:8000 .'
+alias phps='php -S localhost:8000'
 
 # Start tmux on load
 if [[ ! $TERM =~ screen ]]; then
