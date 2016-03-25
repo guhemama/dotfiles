@@ -49,6 +49,9 @@ alias gitpl='git pull'
 alias rm='rm -I'
 alias unixtime='date +%s'
 
+# PHP aliases
+alias phps='php -S localhost:8000 .'
+
 # Start tmux on load
 if [[ ! $TERM =~ screen ]]; then
   # Checks if default session exists
