@@ -67,5 +67,7 @@ fi
 # Include RVM script
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
-# Add Cabal bin dir to path
-export PATH="$HOME/.cabal/bin":$PATH
+# Add our local bin to path
+if [ -d "$HOME/bin" ]; then
+  PATH="$HOME/bin:$PATH"
+fi
