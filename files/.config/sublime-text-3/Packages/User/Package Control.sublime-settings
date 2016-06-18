@@ -10,6 +10,7 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"BracketHighlighter",
 		"DocBlockr",
 		"Modific",
 		"Package Control",
