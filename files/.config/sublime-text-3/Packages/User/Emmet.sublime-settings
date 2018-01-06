@@ -1,0 +1,3 @@
+{
+  "disabled_keymap_actions": ["decrement_number_by_10", "increment_number_by_10"]
+}
