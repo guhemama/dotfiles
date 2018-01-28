@@ -52,16 +52,13 @@ alias unixtime='date +%s'
 # PHP aliases
 alias phps='php -S localhost:8000'
 
-# Start tmux on load
-if [[ ! $TERM =~ screen ]]; then
-  # Checks if default session exists
-  tmux has-session -t terminal &> /dev/null
+# Start tmux on load if tmux exists and the session is interactive
+if command -v tmux>/dev/null; then
+  [[ $- == *i* ]] && [[ ! $TERM =~ screen ]] && [ -z $TMUX ] && exec tmux
+fi
 
-  if [ $? == 0 ]; then
-    exec tmux a -t terminal
-  else
-    exec tmux new -s terminal
-  fi
+if [ -f ~/.Xmodmap ]; then
+  xmodmap ~/.Xmodmap
 fi
 
 # Include RVM script
