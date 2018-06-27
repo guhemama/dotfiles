@@ -64,6 +64,11 @@ fi
 # Include RVM script
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
+# Add yarn bin
+if [ -d "$HOME/.yarn/bin" ]; then
+  PATH="$HOME/.yarn/bin:$PATH"
+fi
+
 # Add our local bin to path
 if [ -d "$HOME/bin" ]; then
   PATH="$HOME/bin:$PATH"
