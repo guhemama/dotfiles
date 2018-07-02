@@ -5,7 +5,7 @@ fi
 
 # Set $TERM to 256 color
 if [ "$TERM" == "xterm" ]; then
-  export TERM=xterm-256color
+  export TERM=xterm-color
 fi
 
 # Custom PS1
